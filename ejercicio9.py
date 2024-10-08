@@ -1,9 +1,6 @@
-from random import Random
+import random
 
-randon = Random()
-randon.seed()
-
-a = randon.randint(1,100)
+a = random.randint(1,100)
 nUsuario = None
 contador = 0
 
